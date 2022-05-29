@@ -16,7 +16,7 @@ class Solution {
         var y: Int = 0
         var x: Int = 0
         
-        for i in 1...n*n {
+        for i in 1...n*n {else
             guard board[y][x] == 0 else { break }
             
             board[y][x] = i
